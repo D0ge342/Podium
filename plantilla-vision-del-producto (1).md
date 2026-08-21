@@ -50,6 +50,17 @@ Un conflicto entre usuarios:
 Instrucción: describe algo que un usuario quiera y que a otro le estorbe. Ahí está tu primera decisión de diseño real.
 Un usuario puede querer que las partidas que registra sean visibles para todos sus amigos o incluso para otros usuarios de Podium, mientras que otro jugador que participó en esa misma partida puede preferir que su nombre, puntuación o fotografía no aparezcan públicamente.
 La decisión de diseño será permitir que cada usuario controle la privacidad de su perfil y que las publicaciones respeten la visibilidad del grupo o cuenta donde fueron creadas. Además, la información de otros jugadores no deberá hacerse pública fuera del grupo si sus configuraciones de privacidad no lo permiten.
+
+
+2.1
+
+Falta exploracion y ranking publico
+Se podria agregar exploracion por juego de mesa
+
+
+
+
+
 ________________________________________
 
 				
