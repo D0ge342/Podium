@@ -44,7 +44,6 @@ El sistema de mensajería en tiempo real queda fuera de la primera versión porq
 
 **4. Tipo de sistema y restricciones**
 
-*Instrucción: identifica de qué tipo es tu sistema y qué te obliga a garantizar ese tipo. Un sistema de información y un sistema crítico no se diseñan igual.*
 
 **Tipo de sistema: Web y Saas**
 
