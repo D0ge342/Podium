@@ -75,9 +75,9 @@ Es una aplicación a la que los usuarios acceden por medio de Internet para util
 
 **Por qué le conviene a este proyecto:**
 
-*El modelo de Prototipado Rápido es adecuado para Podium porque, aunque la idea principal de la aplicación ya está definida, todavía existen requisitos que pueden cambiar conforme los usuarios prueben las distintas pantallas y funciones.*
+El modelo de Prototipado Rápido es adecuado para Podium porque, aunque la idea principal de la aplicación ya está definida, todavía existen requisitos que pueden cambiar conforme los usuarios prueben las distintas pantallas y funciones.
 
-*En Podium es especialmente importante la experiencia de usuario, ya que funciones como registrar una partida, consultar estadísticas, navegar por el feed, buscar amigos o entrar a grupos deben ser fáciles de entender y utilizar. Por esta razón, crear prototipos permite probar estas funciones antes de desarrollar completamente el sistema.*
+En Podium es especialmente importante la experiencia de usuario, ya que funciones como registrar una partida, consultar estadísticas, navegar por el feed, buscar amigos o entrar a grupos deben ser fáciles de entender y utilizar. Por esta razón, crear prototipos permite probar estas funciones antes de desarrollar completamente el sistema.
 
 **Alternativas descartadas**
 
