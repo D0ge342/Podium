@@ -49,7 +49,7 @@ El sistema de mensajería en tiempo real queda fuera de la primera versión porq
 
 **Por qué es de ese tipo:**
 
-*Es una aplicación a la que los usuarios acceden por medio de Internet para utilizar un servicio centralizado. La información de perfiles, amigos, grupos, partidas, publicaciones y estadísticas se almacena en una base de datos y puede ser consultada desde la aplicación.*
+Es una aplicación a la que los usuarios acceden por medio de Internet para utilizar un servicio centralizado. La información de perfiles, amigos, grupos, partidas, publicaciones y estadísticas se almacena en una base de datos y puede ser consultada desde la aplicación.
 
 **Atributos de calidad que impone:**
 
