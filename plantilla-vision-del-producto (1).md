@@ -24,6 +24,7 @@ Un usuario puede querer que las partidas que registra sean visibles para todos s
 La decisión de diseño será permitir que cada usuario controle la privacidad de su perfil y que las publicaciones respeten la visibilidad del grupo o cuenta donde fueron creadas. Además, la información de otros jugadores no deberá hacerse pública fuera del grupo si sus configuraciones de privacidad no lo permiten.
 
 **Reflexion con la dupla**
+
 Falta exploracion y ranking publico
 Se podria agregar exploracion por juego de mesa
 
