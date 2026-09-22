@@ -50,7 +50,7 @@ El sistema de mensajería en tiempo real queda fuera de la primera versión porq
 **4. Tipo de sistema y restricciones**
 
 
-**Tipo de sistema: Web y Saas**
+**Tipo de sistema: Web**
 
 **Por qué es de ese tipo:**
 
