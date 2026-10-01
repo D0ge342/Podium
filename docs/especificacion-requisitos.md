@@ -514,21 +514,3 @@ C5. El flujo regresa al paso 8 del escenario principal.
 
 ---
 
-## Antes de entregar
-
-- [x] Todos los requisitos tienen identificador único
-- [x] Cada requisito expresa una sola idea principal
-- [x] Cada requisito funcional tiene criterio de aceptación comprobable
-- [x] Cada requisito no funcional tiene una métrica verificable
-- [x] El campo Origen distingue el origen de cada requisito
-- [x] Ningún requisito impone una solución técnica específica
-- [x] Los hallazgos de la entrevista se reflejan en requisitos y prioridades
-- [x] Se definieron entre cinco y ocho casos de uso
-- [x] Los casos de uso están nombrados con verbo en infinitivo más objeto
-- [x] CU-01 incluye actor, objetivo, precondiciones, escenario principal, tres flujos alternos y postcondiciones
-- [x] Cada caso de uso principal está relacionado con requisitos funcionales
-- [x] La tabla de trazabilidad relaciona requisitos, casos de uso y prototipo
-- [x] El diagrama existe en formatos `.drawio` y `.png`
-- [x] El prototipo representa el flujo completo de CU-01 y al menos un flujo alterno
-- [x] La revisión final del repositorio está completada
-- [x] El video de 6 a 8 minutos está grabado
