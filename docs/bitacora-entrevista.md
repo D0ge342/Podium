@@ -109,6 +109,3 @@ También se identificó que las funciones sociales, como el feed o la agenda de 
 
 ---
 
-## Nota metodológica
-
-Esta bitácora fue elaborada a partir de una entrevista simulada basada en un perfil de usuario definido previamente. Los resultados se utilizarán para actualizar la especificación de requisitos, los casos de uso y el prototipo de Podium.
