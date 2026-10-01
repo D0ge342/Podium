@@ -514,3 +514,26 @@ C5. El flujo regresa al paso 8 del escenario principal.
 
 ---
 
+### Revisión de la dupla
+
+Esta sección debe completarse antes de entregar el proyecto. La revisión debe corresponder a una persona que haya revisado realmente el documento y sus observaciones deben registrarse antes de la entrega.
+
+Nombre de la persona que realizó la revisión: Marco Villegas  Xanthakis 
+
+Fecha de revisión: 30/09/2026
+
+Observaciones realizadas
+- El sistema asumía inicialmente que todos los participantes tendrían una cuenta, pero durante la entrevista se identificó que pueden existir jugadores invitados.
+-  El feed social tenía demasiado peso en la propuesta inicial, aunque la entrevista mostró que el historial de partidas, los grupos y las estadísticas eran más importantes para el usuario.
+- No estaba contemplado de manera explícita qué ocurriría si un resultado se registraba incorrectamente y necesitaba corregirse.
+- El caso de uso principal necesitaba incluir situaciones alternas reales y no únicamente el escenario exitoso.
+
+
+
+Cambios realizados a partir de la revisión
+
+- Se redujo la prioridad de RF-008, Consultar feed, dejando el contenido social como una función secundaria frente al historial y las estadísticas.
+- Se agregó RF-015, Registrar participante invitado, para permitir incluir jugadores sin cuenta.
+- CU-01, Registrar una partida, se desarrolló con un escenario principal y flujos alternos para participante invitado, empate y datos incompletos.
+- El prototipo incorporó un flujo alterno en el que falta el resultado de un participante y el sistema evita guardar información incompleta.
+
