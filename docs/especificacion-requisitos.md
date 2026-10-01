@@ -506,10 +506,10 @@ C5. El flujo regresa al paso 8 del escenario principal.
 | Fecha | Requisito / sección | Qué cambió | Por qué |
 |---|---|---|---|
 | 22/09/2026 | Documento inicial | Se creó la primera versión de la especificación. | Inicio formal del documento. |
-| 01/10/2026 | Requisitos funcionales | Se actualizaron prioridades y orígenes utilizando los hallazgos de la entrevista. | Incorporar evidencia obtenida durante la elicitación. |
-| 01/10/2026 | RF-015 a RF-017 | Se agregaron participante invitado, corrección de partida y empate. | Nuevos hallazgos de la entrevista. |
-| 01/10/2026 | RF-018 | Se agregó moderación de contenido reportado. | Justificar el rol de Administrador de Podium y controlar contenido inapropiado. |
-| 01/10/2026 | Sección 5 | Se definieron ocho casos de uso y se desarrolló CU-01 Registrar una partida. | Completar el análisis de comportamiento solicitado en la entrega. |
+| 28/09/2026 | Requisitos funcionales | Se actualizaron prioridades y orígenes utilizando los hallazgos de la entrevista. | Incorporar evidencia obtenida durante la elicitación. |
+| 28/09/2026 | RF-015 a RF-017 | Se agregaron participante invitado, corrección de partida y empate. | Nuevos hallazgos de la entrevista. |
+| 28/09/2026 | RF-018 | Se agregó moderación de contenido reportado. | Justificar el rol de Administrador de Podium y controlar contenido inapropiado. |
+| 29/09/2026 | Sección 5 | Se definieron ocho casos de uso y se desarrolló CU-01 Registrar una partida. | Completar el análisis de comportamiento solicitado en la entrega. |
 | 01/10/2026 | Sección 6 | Se completó la trazabilidad entre requisitos, casos de uso y prototipo. | Mostrar la relación entre alcance, requisitos, comportamiento y evidencia visual. |
 
 ---
