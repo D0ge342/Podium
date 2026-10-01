@@ -446,9 +446,9 @@ El entrevistador debe descubrir las necesidades mediante sus preguntas.
 
 Esta sección debe completarse antes de entregar el proyecto. La revisión debe corresponder a una persona que haya revisado realmente el documento y sus observaciones deben registrarse antes de la entrega.
 
-Nombre de la persona que realizó la revisión: ________________________________
+Nombre de la persona que realizó la revisión: Marco Villegas  Xanthakis 
 
-Fecha de revisión: ________________________________
+Fecha de revisión: 30/09/2026
 
 Observaciones realizadas
 
