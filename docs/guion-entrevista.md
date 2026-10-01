@@ -316,21 +316,6 @@ Después de jugar muchas veces, es difícil saber con certeza:
 
 La información puede terminar repartida entre mensajes, fotografías, notas y archivos distintos.
 
----
-
-### Cómo responder
-
-Contesta solamente lo que te pregunten.
-
-No adelantes información aunque consideres que es importante.
-
-Si te preguntan algo que no aparece en la ficha, puedes inventarlo siempre que sea coherente con el resto del contexto.
-
-Si te preguntan de manera vaga, responde de manera vaga.
-
-No le digas al entrevistador qué funciones debería tener Podium. Tu papel es explicar cómo juegas actualmente, qué problemas tienes y qué situaciones ocurren.
-
-El entrevistador debe descubrir las necesidades mediante sus preguntas.
 
 ---
 
