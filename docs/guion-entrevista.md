@@ -1,12 +1,3 @@
-# Guion de entrevista de elicitación — Podium
-
-**Materia:** Ingeniería de Software I · SIS3407  
-**Sistema:** Podium  
-**Técnica:** Entrevista de elicitación  
-**Duración estimada:** 10 minutos  
-**Entrevistador:** __________________________  
-**Entrevistado:** __________________________  
-**Fecha:** __________________________  
 
 ---
 
@@ -448,3 +439,31 @@ Si te preguntan de manera vaga, responde de manera vaga.
 No le digas al entrevistador qué funciones debería tener Podium. Tu papel es explicar cómo juegas actualmente, qué problemas tienes y qué situaciones ocurren.
 
 El entrevistador debe descubrir las necesidades mediante sus preguntas.
+
+---
+
+### Revisión de la dupla
+
+Esta sección debe completarse antes de entregar el proyecto. La revisión debe corresponder a una persona que haya revisado realmente el documento y sus observaciones deben registrarse antes de la entrega.
+
+Nombre de la persona que realizó la revisión: ________________________________
+
+Fecha de revisión: ________________________________
+
+Observaciones realizadas
+
+
+
+
+
+
+
+Cambios realizados a partir de la revisión
+
+
+
+
+
+
+
+Estado de la revisión: Pendiente de completar.
