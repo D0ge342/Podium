@@ -346,5 +346,3 @@ Cambios realizados a partir de la revisión
 
 
 
-
-Estado de la revisión: Pendiente de completar.
