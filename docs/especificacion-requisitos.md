@@ -265,13 +265,13 @@ Un usuario puede querer compartir una partida, fotografía o resultado, mientras
 
 | ID | Atributo | Nombre | Prioridad | Origen |
 |---|---|---|---|---|
-| RNF-REN-001 | Rendimiento | Tiempo de carga de pantallas principales | Importante | Derivado del tipo de sistema Web y SaaS |
-| RNF-SEG-001 | Seguridad | Control de acceso a información | Imprescindible | Derivado del tipo de sistema Web y SaaS |
+| RNF-REN-001 | Rendimiento | Tiempo de carga de pantallas principales | Importante | Derivado del tipo de sistema Web  |
+| RNF-SEG-001 | Seguridad | Control de acceso a información | Imprescindible | Derivado del tipo de sistema Web |
 | RNF-USA-001 | Usabilidad | Facilidad para registrar partidas | Imprescindible | Entrevista |
 | RNF-PRI-001 | Privacidad | Visibilidad del contenido | Imprescindible | Entrevista |
 | RNF-CON-001 | Consistencia | Coherencia de estadísticas | Imprescindible | Entrevista |
-| RNF-DIS-001 | Disponibilidad | Disponibilidad mensual del servicio | Importante | Derivado del tipo de sistema Web y SaaS |
-| RNF-ESC-001 | Escalabilidad | Respuesta bajo usuarios concurrentes | Importante | Derivado del tipo de sistema Web y SaaS |
+| RNF-DIS-001 | Disponibilidad | Disponibilidad mensual del servicio | Importante | Derivado del tipo de sistema Web |
+| RNF-ESC-001 | Escalabilidad | Respuesta bajo usuarios concurrentes | Importante | Derivado del tipo de sistema Web  |
 
 ### 4.2 Fichas
 
