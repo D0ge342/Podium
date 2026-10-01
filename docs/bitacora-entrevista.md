@@ -1,4 +1,4 @@
-
+# Bitácora de entrevista — Podium
 
 ## Supuestos que se confirmaron
 
@@ -99,6 +99,120 @@ El sistema deberá permitir registrar más de un participante en la primera posi
 
 ---
 
+# Ficha de dominio contestada con base en el perfil entrevistado
+
+## Quién eres
+
+No eres una persona extremadamente aficionada a los juegos de mesa, pero disfrutas jugar Catan con un grupo habitual de amigos.
+
+Normalmente juegas con prácticamente las mismas personas y se reúnen aproximadamente una vez cada una o dos semanas, dependiendo de la disponibilidad del grupo.
+
+Tienen un grupo de WhatsApp dedicado principalmente a registrar cómo terminaron sus partidas. Ahí suelen enviar quién ganó, los puntos obtenidos y, algunas veces, fotografías.
+
+No utilizas actualmente una aplicación especializada para llevar estadísticas o un historial organizado de las partidas.
+
+---
+
+## Cómo es tu día o contexto de juego
+
+Cuando el grupo decide reunirse, normalmente se ponen de acuerdo mediante WhatsApp.
+
+La organización de la reunión no representa un problema importante, porque el grupo ya está acostumbrado a utilizar ese medio para coordinarse.
+
+Cuando termina una partida de Catan, normalmente alguien envía al grupo de WhatsApp quién ganó y cuántos puntos obtuvo cada persona.
+
+En algunas ocasiones también comparten fotografías de la reunión.
+
+Si después quieren recordar una partida antigua o saber quién ha ganado más veces, tienen que buscar entre los mensajes anteriores y revisar los resultados manualmente.
+
+No cuentan con estadísticas automáticas ni con un historial organizado por jugador o por partida.
+
+---
+
+## Reglas que conoces y no vas a decir si no te preguntan
+
+- Una persona puede pertenecer a más de un grupo de juegos.
+- Formar parte del mismo grupo no significa necesariamente que todos sean amigos dentro de una aplicación.
+- Algunas veces puede participar una persona invitada que no tenga cuenta.
+- El resultado de una persona invitada también debe poder registrarse.
+- No tendría sentido obligar a un invitado ocasional a crear una cuenta solamente para aparecer en una partida.
+- Una partida que se cancela o no puede terminar normalmente no debería contarse en las estadísticas.
+- Si alguien se retira y la partida ya no puede continuar, normalmente el grupo decide no contar ese resultado.
+- Puede existir un empate y no siempre debería obligarse a registrar un único ganador.
+- Si alguien registra mal una puntuación, el resultado debería poder corregirse posteriormente.
+- Los resultados y puntuaciones pueden compartirse dentro del grupo.
+- Las fotografías deberían tener mayor control de privacidad y no necesariamente ser públicas.
+- Las estadísticas más útiles son partidas jugadas, victorias, porcentaje de victorias, puntos y promedio de puntos.
+- Saber contra quién se jugó puede ser útil, pero no es tan importante como conocer los resultados y estadísticas generales.
+- El feed social puede resultar interesante, pero no es la razón principal por la que utilizarías Podium.
+- El historial de partidas, los grupos y las estadísticas son más importantes que las funciones sociales.
+- No necesitas que Podium sustituya a WhatsApp para organizar las reuniones.
+
+---
+
+## Una excepción que ocurre a veces
+
+En algunas reuniones puede jugar una persona que normalmente no pertenece al grupo.
+
+En ese caso, su resultado sí debería poder registrarse, aunque solamente participe una vez y no tenga una cuenta en Podium.
+
+Otra situación que puede ocurrir es que una partida no termine correctamente porque una persona tenga que retirarse antes de tiempo. Si debido a esto la partida no puede continuar, normalmente ese resultado no se considera válido.
+
+También puede ocurrir que haya un empate o que después de terminar descubran que una puntuación fue registrada incorrectamente. En ese caso debería existir una forma de corregir el resultado sin perder el historial de la partida.
+
+---
+
+## Lo que te molesta de cómo lo hacen hoy
+
+El principal problema no es registrar el resultado inmediatamente después de jugar, porque el grupo ya utiliza WhatsApp para hacerlo.
+
+El problema aparece después, cuando se acumulan muchas partidas.
+
+Para saber quién ha ganado más veces es necesario revisar mensajes anteriores y contar resultados manualmente.
+
+También puede ser difícil encontrar una partida específica, recordar las puntuaciones exactas o localizar una fotografía relacionada con determinada reunión.
+
+En ocasiones algún resultado puede quedar incompleto y después nadie recuerda exactamente cuál era la puntuación.
+
+Te gustaría poder consultar fácilmente:
+
+- cuántas partidas ha jugado cada persona;
+- cuántas veces ha ganado;
+- su porcentaje de victorias;
+- cuántos puntos ha obtenido;
+- su promedio de puntos en Catan;
+- los resultados de partidas anteriores.
+
+---
+
+## Cómo responder
+
+Contesta solamente lo que te pregunten.
+
+Tus respuestas deben ser breves y naturales.
+
+No propongas funciones para Podium por iniciativa propia; explica primero cómo haces actualmente las cosas.
+
+Si te preguntan qué cambiarías o qué función te sería útil, puedes mencionar que te interesan principalmente el historial de partidas y las estadísticas.
+
+Si te preguntan por funciones sociales, puedes decir que te parecen interesantes, pero que probablemente utilizarías más los grupos, el registro de partidas y las estadísticas.
+
+Si te preguntan sobre organización de reuniones, explica que actualmente WhatsApp funciona suficientemente bien para eso.
+
+Si te preguntan algo que no se haya definido, responde de forma coherente con el resto del perfil.
+
+---
+
+## Relación entre la ficha de dominio y los hallazgos de la entrevista
+
+La ficha de dominio representa el mismo perfil utilizado durante la entrevista. El participante juega Catan con regularidad con prácticamente el mismo grupo de amigos y utiliza WhatsApp para coordinarse y conservar resultados.
+
+La entrevista confirmó que la organización de las reuniones no es un problema prioritario. La principal dificultad aparece después, cuando se necesita recuperar información histórica o calcular estadísticas.
+
+Las excepciones incluidas en la ficha —participantes invitados, partidas incompletas o canceladas, empates y correcciones de resultados— se reflejan directamente en los cambios realizados a los requisitos y en los nuevos RF-015, RF-016 y RF-017.
+
+---
+
 ## Conclusión breve de la entrevista
 
 La entrevista permitió comprender que la necesidad principal de Podium no consiste en sustituir todas las herramientas que utiliza actualmente un grupo de amigos, sino en centralizar el historial de partidas y convertir los resultados almacenados en información fácil de consultar.
@@ -106,6 +220,3 @@ La entrevista permitió comprender que la necesidad principal de Podium no consi
 Uno de los hallazgos más importantes fue que el sistema debe contemplar situaciones que no estaban completamente definidas en el planteamiento inicial, como participantes invitados sin cuenta, correcciones de resultados y empates.
 
 También se identificó que las funciones sociales, como el feed o la agenda de próximas partidas, tienen una prioridad menor para este perfil de usuario que el registro de partidas, el historial, la consulta de grupos y las estadísticas.
-
----
-
