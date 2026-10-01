@@ -256,7 +256,7 @@ Actualmente se considera que registrar una partida es una de las funciones princ
 
 ## Ficha de dominio — Podium
 
-**Para quien hace de cliente**
+
 
 ### Quién eres
 
