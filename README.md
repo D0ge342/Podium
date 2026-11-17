@@ -5,48 +5,80 @@
 
 ## Descripción
 
-Podium es una propuesta de red social para personas que disfrutan los juegos de mesa. Su objetivo es centralizar el registro de partidas, conservar el historial de juego y facilitar la consulta de estadísticas de jugadores y grupos.
+Podium es una propuesta de red social para personas que disfrutan los juegos de mesa. Busca centralizar el registro de partidas, conservar resultados anteriores y facilitar la consulta de estadísticas de jugadores y grupos.
 
-La idea surgió al identificar que muchos grupos conservan resultados en conversaciones y fotografías, lo que dificulta recuperar partidas anteriores y calcular estadísticas. El proyecto se encuentra en **etapa de análisis y diseño**, con documentación, modelos y un prototipo navegable; las funciones descritas son requisitos del sistema propuesto, no características ya implementadas.
+El proyecto surgió de la dificultad de encontrar partidas antiguas y calcular estadísticas cuando los resultados se guardan en mensajes y fotografías. La elicitación llevó a priorizar el **historial de partidas**, los **grupos** y las **estadísticas** por encima de algunas funciones sociales.
 
-## Alcance del sistema
+> **Estado actual:** proyecto en etapa académica de análisis y diseño. Los documentos describen funcionalidades previstas, modelos y decisiones arquitectónicas; no representan una aplicación completamente implementada.
 
-La propuesta contempla perfiles de usuario, grupos, registro y corrección de partidas, participantes invitados, empates, historial, estadísticas y controles de privacidad. Las funciones sociales complementan estas capacidades, pero el registro de partidas y la consulta del historial son las prioridades principales identificadas en la elicitación.
+## Alcance
 
-## Documentación del proyecto
+Se contemplan perfiles, grupos, registro y corrección de partidas, participantes invitados, empates, historial, estadísticas y configuración de privacidad. El prototipo de Figma permite visualizar parte de estas interacciones.
 
-### Análisis y requisitos — Unidad 2
+## Documentación
+
+### Unidades 1 y 2 · Visión, elicitación y requisitos
 
 - [Visión del producto](docs/vision-del-producto.md)
 - [Guion de entrevista y ficha de dominio](docs/guion-entrevista.md)
-- [Bitácora de entrevista](docs/bitacora-entrevista.md)
+- [Bitácora de entrevista y hallazgos](docs/bitacora-entrevista.md)
 - [Especificación de requisitos funcionales y no funcionales](docs/especificacion-requisitos.md)
-- [Diagrama de casos de uso (editable)](docs/diagramas/casos-de-uso.drawio)
-- [Diagrama de casos de uso (imagen)](docs/diagramas/casos-de-uso.png)
+- [Casos de uso — archivo editable (.drawio)](docs/diagramas/casos-de-uso.drawio)
+- [Casos de uso — imagen (.png)](docs/diagramas/casos-de-uso.png)
 
-### Arquitectura y decisiones — Unidad 3
+### Unidad 3 · Arquitectura de software
 
-- [Diagramas C4 en Mermaid: contexto, contenedores y componentes](doc/arch/diagramas.md)
-- [ADR-001: decisión de monolito modular](doc/arch/adr-001-monolito-modular.md)
+- [Diagramas C4: contexto, contenedores y componentes](doc/arch/diagramas.md)
+- [ADR-001: decisión de arquitectura — monolito modular](doc/arch/adr-001-monolito-modular.md)
+- [Ejemplos de Mermaid utilizados en clase](doc/arch/ejemplos-guia-mermaid.md)
 
-La arquitectura propuesta es un **monolito modular**, organizado internamente en cuatro módulos: **Identidad y participantes**, **Grupos y contenido**, **Partidas** y **Estadísticas**. Se eligió para mantener separadas las responsabilidades sin introducir desde el inicio la complejidad operativa de los microservicios.
+Se propone una arquitectura de **monolito modular** con cuatro módulos: **Identidad y participantes**, **Grupos y contenido**, **Partidas** y **Estadísticas**. La separación es interna; no implica cuatro servicios desplegados por separado.
 
-### Modelado orientado a objetos — Unidad 4
+### Unidad 4 · Diseño orientado a objetos y comportamiento
 
-Se elaboró un diagrama de clases en Mermaid con entidades como `Usuario`, `Grupo`, `Partida`, `JuegoMesa`, `Participante`, `Resultado`, `Estadistica` y `Fotografia`. El modelo distingue entre participantes registrados e invitados y contempla reglas sobre resultados y partidas.
+- [Diagramas de la Unidad 4 y revisión de consistencia](doc/arch/diagramas-unidad4.md)
 
-### Mantenimiento y evolución — Unidad 5
+Este documento reúne el diagrama de secuencia de **CU-01 Registrar una partida**, la máquina de estados de `Partida`, un diagrama de actividad complementario, una propuesta de ajuste del diagrama de clases y su revisión de consistencia con los requisitos y la arquitectura.
 
-Las solicitudes de cambio y sus análisis de impacto se documentan en la carpeta `doc/cambios/`, siguiendo las plantillas **SC-001** y **AI-001** del curso. Cada análisis debe considerar efectos directos e indirectos sobre requisitos, casos de uso, arquitectura, diagramas y pruebas.
+**Nota de revisión:** este archivo todavía identifica ajustes pendientes por validar (incluyendo el renderizado en Mermaid y la coherencia de algunas transiciones con los requisitos). No se consideran cambios implementados automáticamente.
 
-> **Nota:** los ejemplos de cambio utilizados para practicar no sustituyen una solicitud real recibida de la dupla de revisión. Cuando exista una solicitud real, debe identificarse al solicitante y documentarse su análisis correspondiente.
+### Unidad 5 · Mantenimiento y evolución
 
-## Prototipo
+- [SC-001: solicitud de cambio — avisos de partidas](doc/cambios/sc-001-avisos-de-partidas.md)
+- [AI-001: análisis de impacto — avisos de partidas](doc/cambios/ai-001-avisos-de-partidas.md)
 
-[**Ver prototipo navegable de Podium en Figma**](https://www.figma.com/proto/TqQjTMT8wNM2V1mNhswcAF/Podium---Prototipo?node-id=1-125&scaling=min-zoom&content-scaling=fixed)
+La solicitud plantea avisos dentro de Podium al registrar o corregir partidas. El análisis documenta impactos directos e indirectos, riesgos, alternativas, estimación de esfuerzo y recomendación. **La solicitud se encuentra en estado Propuesta**, y el análisis no equivale a una implementación ni a una aceptación definitiva.
 
-El prototipo presenta pantallas de inicio, descubrimiento de grupos, perfil, detalle de grupo y un ejemplo de flujo alterno de registro con información incompleta. Es una representación visual de las interacciones previstas, no una aplicación funcional.
+## Prototipo navegable
 
-## Estado del proyecto
+[**Abrir prototipo de Podium en Figma**](https://www.figma.com/proto/TqQjTMT8wNM2V1mNhswcAF/Podium---Prototipo?node-id=1-125&scaling=min-zoom&content-scaling=fixed)
 
-**Análisis y diseño académico.** La documentación describe el sistema propuesto y las decisiones tomadas durante el semestre. La implementación, pruebas de software y despliegue quedan como etapas posteriores.
+El prototipo muestra Inicio, Descubrir, Perfil, un grupo de ejemplo y una pantalla de flujo alterno para datos incompletos al registrar una partida. Su finalidad es apoyar la validación visual de los requisitos.
+
+## Organización del repositorio
+
+```text
+Podium/
+├── README.md
+├── docs/
+│   ├── vision-del-producto.md
+│   ├── guion-entrevista.md
+│   ├── bitacora-entrevista.md
+│   ├── especificacion-requisitos.md
+│   └── diagramas/
+│       ├── casos-de-uso.drawio
+│       └── casos-de-uso.png
+└── doc/
+    ├── arch/
+    │   ├── diagramas.md
+    │   ├── adr-001-monolito-modular.md
+    │   ├── ejemplos-guia-mermaid.md
+    │   └── diagramas-unidad4.md
+    └── cambios/
+        ├── sc-001-avisos-de-partidas.md
+        └── ai-001-avisos-de-partidas.md
+```
+
+## Estado y próximos pasos
+
+La estructura documental está reunida en este repositorio. Los siguientes trabajos son validar y ajustar los diagramas de la Unidad 4, revisar la correspondencia con requisitos y casos de uso, cerrar las decisiones de cambio pendientes y continuar la evolución del prototipo.
