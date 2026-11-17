@@ -60,6 +60,7 @@ El prototipo muestra Inicio, Descubrir, Perfil, un grupo de ejemplo y una pantal
 ```text
 Podium/
 ├── README.md
+├── CHANGELOG.md
 ├── docs/
 │   ├── vision-del-producto.md
 │   ├── guion-entrevista.md
