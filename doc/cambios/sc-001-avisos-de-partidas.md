@@ -12,7 +12,7 @@ La solicitud permanece en este estado hasta que el dueño de Podium decida acept
 
 ## Quién la pide
 
-**Marco Villegas**, en el papel de **dupla de revisión**.
+**Marco Villegas**
 
 ## Qué se pide
 
