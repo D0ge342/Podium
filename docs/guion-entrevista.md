@@ -260,7 +260,7 @@ Actualmente se considera que registrar una partida es una de las funciones princ
 
 ### Quién eres
 
-Eres una persona que juega juegos de mesa con frecuencia.
+Eres una persona que disfruta jugar juegos de mesa con regularidad, aunque no te consideras especialmente aficionada.
 
 Tienes un grupo habitual de aproximadamente cinco amigos con quienes te reúnes para jugar, aunque algunas veces participan familiares, conocidos o personas invitadas que no forman parte del grupo habitual.
 
@@ -270,7 +270,7 @@ Llevas varios años jugando juegos de mesa y conoces bien la dinámica del grupo
 
 ### Cómo es tu día o contexto de juego
 
-Normalmente se reúnen una o dos veces por semana o cuando todos tienen disponibilidad.
+Normalmente se reúnen cada una o dos semanas, dependiendo de la disponibilidad del grupo.
 
 En una reunión pueden jugar uno o varios juegos. Algunos juegos utilizan puntos y tienen un ganador claro, mientras que otros pueden permitir empates, equipos o diferentes condiciones para determinar el resultado.
 
