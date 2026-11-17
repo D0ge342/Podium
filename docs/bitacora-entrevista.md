@@ -105,7 +105,7 @@ El sistema deberá permitir registrar más de un participante en la primera posi
 
 No eres una persona extremadamente aficionada a los juegos de mesa, pero disfrutas jugar Catan con un grupo habitual de amigos.
 
-Normalmente juegas con prácticamente las mismas personas y se reúnen aproximadamente una vez cada una o dos semanas, dependiendo de la disponibilidad del grupo.
+Normalmente juegas con prácticamente las mismas personas y se reúnen cada una o dos semanas, dependiendo de la disponibilidad del grupo.
 
 Tienen un grupo de WhatsApp dedicado principalmente a registrar cómo terminaron sus partidas. Ahí suelen enviar quién ganó, los puntos obtenidos y, algunas veces, fotografías.
 
